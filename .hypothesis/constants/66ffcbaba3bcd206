@@ -1,0 +1,4 @@
+# file: /Users/gathakur2601/PROJJJJ/src/composio_research/pattern_analyzer.py
+# hypothesis_version: 6.141.1
+
+[0.0, 0.5, 100, '_', 'gated', 'majority_gated', 'majority_self_serve', 'self_serve']

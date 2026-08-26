@@ -1,0 +1,608 @@
+{
+  "pbtResults": {
+    "1.4 Write property test for AppRecord JSON round-trip (Property 6)": {
+      "status": "passed",
+      "lastRunTimestamp": 1787768603113
+    },
+    "5.2 Write property test for verification accuracy metric consistency (Property 7)": {
+      "status": "passed",
+      "lastRunTimestamp": 1787769922529
+    },
+    "6.3 Write property test for access distribution partitions (Property 2)": {
+      "status": "passed",
+      "lastRunTimestamp": 1787770304721
+    },
+    "6.5 Write property test for easy-win classification (Property 4)": {
+      "status": "passed",
+      "lastRunTimestamp": 1787770311861
+    },
+    "6.4 Write property test for blocker rankings (Property 3)": {
+      "status": "passed",
+      "lastRunTimestamp": 1787770349621
+    },
+    "6.2 Write property test for auth distribution sums (Property 1)": {
+      "status": "passed",
+      "lastRunTimestamp": 1787770372148
+    },
+    "8.3 Write property test for filter intersection correctness (Property 5)": {
+      "status": "passed",
+      "lastRunTimestamp": 1787771133032
+    },
+    "9.3 Write property test for partial research threshold (Property 10)": {
+      "status": "passed",
+      "lastRunTimestamp": 1787771228040
+    },
+    "9.2 Write property test for category coverage invariant (Property 8)": {
+      "status": "passed",
+      "lastRunTimestamp": 1787771411500
+    }
+  },
+  "executionHistory": {
+    "1.1 Create Python project structure with pyproject.toml and dependencies": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767887986
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767899309
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787768081622
+      }
+    ],
+    "1.2 Implement data models and enums in models.py": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888051
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787768091584
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787768396394
+      }
+    ],
+    "1.3 Implement PipelineConfig and app list in config.py and app_list.py": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888084
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787768092401
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787768397237
+      }
+    ],
+    "1.4 Write property test for AppRecord JSON round-trip (Property 6)": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888108
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787768410124
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787768927314
+      }
+    ],
+    "1.5 Write property test for conditional field population invariants (Property 9)": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888133
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787768410920
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787768928289
+      }
+    ],
+    "2.1 Implement PipelineCoordinator class in coordinator.py": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888158
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787768411711
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787768929181
+      }
+    ],
+    "2.2 Write unit tests for PipelineCoordinator": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888181
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787768936729
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787769392045
+      }
+    ],
+    "3.1 Implement ResearcherAgent class in researcher.py": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888206
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787768412577
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787768930049
+      }
+    ],
+    "3.2 Write unit tests for ResearcherAgent": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888232
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787768937464
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787769390444
+      }
+    ],
+    "4. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888259
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787772199595
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787772540414
+      }
+    ],
+    "5.1 Implement VerifierAgent class in verifier.py": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888299
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787768938321
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787769391147
+      }
+    ],
+    "5.2 Write property test for verification accuracy metric consistency (Property 7)": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888330
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787769398820
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787769943675
+      }
+    ],
+    "5.3 Write unit tests for VerifierAgent": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888350
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787769399538
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787769942662
+      }
+    ],
+    "6.1 Implement PatternAnalyzer class in pattern_analyzer.py": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888375
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787769400395
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787769941844
+      }
+    ],
+    "6.2 Write property test for auth distribution sums (Property 1)": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888404
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787769950659
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787770390730
+      }
+    ],
+    "6.3 Write property test for access distribution partitions (Property 2)": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888431
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787769951544
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787770391306
+      }
+    ],
+    "6.4 Write property test for blocker rankings (Property 3)": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888455
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787769952351
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787770392209
+      }
+    ],
+    "6.5 Write property test for easy-win classification (Property 4)": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888476
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787769953145
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787770393025
+      }
+    ],
+    "6.6 Write unit tests for PatternAnalyzer": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888517
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787769954010
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787770394033
+      }
+    ],
+    "7. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888542
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787772547488
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787772705678
+      }
+    ],
+    "8.1 Implement HtmlGenerator class in html_generator.py": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888567
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787770400796
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787770941389
+      }
+    ],
+    "8.2 Implement interactive filter logic in embedded JavaScript": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888599
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787770947601
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787771431993
+      }
+    ],
+    "8.3 Write property test for filter intersection correctness (Property 5)": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888623
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787770948368
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787771433797
+      }
+    ],
+    "8.4 Write unit tests for HtmlGenerator": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888647
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787770949235
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787771432948
+      }
+    ],
+    "9.1 Implement category coverage validation and reporting": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888672
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787770401667
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787770940529
+      }
+    ],
+    "9.2 Write property test for category coverage invariant (Property 8)": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888698
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787770950017
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787771434767
+      }
+    ],
+    "9.3 Write property test for partial research threshold (Property 10)": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888730
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787770950911
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787771435601
+      }
+    ],
+    "10.1 Wire all pipeline stages together in coordinator": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888755
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787771441982
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787771733059
+      }
+    ],
+    "10.2 Write integration tests with mocked external services": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888783
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787771739366
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787772187261
+      }
+    ],
+    "11. Final checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787767888827
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787772711307
+      },
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787772841542
+      }
+    ],
+    "1. Set up project structure, dependencies, and data models": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787768928320
+      }
+    ],
+    "3. Implement Researcher Agent": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787769390483
+      }
+    ],
+    "2. Implement Pipeline Coordinator": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787769392085
+      }
+    ],
+    "5. Implement Verifier Agent": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787769943721
+      }
+    ],
+    "6. Implement Pattern Analyzer": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787770394065
+      }
+    ],
+    "8. Implement HTML Generator": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787771433829
+      }
+    ],
+    "9. Implement category coverage and partial research logic": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787771435639
+      }
+    ],
+    "10. Integration, wiring, and end-to-end testing": [
+      {
+        "executionId": "f957f2d4-899c-4b30-8367-cd6f497d4c51",
+        "chatSessionId": "sess_61281617-0b15-4c84-a8cd-709075a37e08",
+        "timestamp": 1787772187309
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+# file: /Users/gathakur2601/PROJJJJ/src/composio_research/coverage.py
+# hypothesis_version: 6.141.1
+
+[80.0, 100.0, 100, 'Unknown reason', 'access_model', 'app_name', 'auth_methods', 'buildability_verdict', 'category', 'description', 'failed_count', 'is_valid', 'partial_count', 'per_category', 'reason', 'target_count', 'total_apps', 'total_records', 'unresearchable_apps', 'unresearchable_count', 'validation_errors']
