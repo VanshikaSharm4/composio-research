@@ -49,7 +49,6 @@ Automated research pipeline that analyzes **100 apps across 10 categories** for 
 
 ```bash
 # Clone and install with dev dependencies
-cd PROJJJJ
 pip install -e ".[dev]"
 ```
 
@@ -202,6 +201,3 @@ Each researched app is captured as an `AppRecord` with:
 - **Checkpointing**: Pipeline resumes from last completed stage, not from scratch.
 - **Verification loop**: 2–4 passes until accuracy ≥ 80% or max passes reached.
 
-## License
-
-Private — internal use only.
