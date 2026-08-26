@@ -1,0 +1,24 @@
+{
+  "passes_completed": 2,
+  "per_pass_metrics": [
+    {
+      "pass_number": 1,
+      "accuracy_percentage": 100.0,
+      "total_data_points": 0,
+      "confirmed_points": 0,
+      "discrepancies_found": 0,
+      "corrections_applied": 0
+    },
+    {
+      "pass_number": 2,
+      "accuracy_percentage": 100.0,
+      "total_data_points": 0,
+      "confirmed_points": 0,
+      "discrepancies_found": 0,
+      "corrections_applied": 0
+    }
+  ],
+  "discrepancy_log": [],
+  "overall_accuracy": 100.0,
+  "requires_manual_review": false
+}

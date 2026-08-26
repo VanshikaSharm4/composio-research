@@ -288,7 +288,7 @@ class TestHtmlStructure:
         generator.generate(data, output_path)
         content = output_path.read_text(encoding="utf-8")
 
-        assert 'id="pattern-analysis"' in content
+        assert 'id="patterns"' in content
 
     def test_contains_verification_section(self, tmp_path: Path) -> None:
         """Output contains section with id='verification'."""
@@ -310,7 +310,7 @@ class TestHtmlStructure:
         generator.generate(data, output_path)
         content = output_path.read_text(encoding="utf-8")
 
-        assert 'id="architecture"' in content
+        assert 'id="agent"' in content
 
     def test_contains_transparency_section(self, tmp_path: Path) -> None:
         """Output contains section with id='transparency'."""
@@ -335,9 +335,9 @@ class TestHtmlStructure:
         required_sections = [
             "executive-summary",
             "data-table",
-            "pattern-analysis",
+            "patterns",
             "verification",
-            "architecture",
+            "agent",
             "transparency",
         ]
         for section_id in required_sections:
@@ -653,7 +653,7 @@ class TestGracefulNoneHandling:
         generator.generate(data, output_path)
         content = output_path.read_text(encoding="utf-8")
 
-        assert 'id="pattern-analysis"' in content
+        assert 'id="patterns"' in content
         assert "not available" in content.lower() or "Pattern analysis" in content
 
     def test_none_verification_metrics_produces_valid_html(self, tmp_path: Path) -> None:
@@ -686,7 +686,7 @@ class TestGracefulNoneHandling:
         assert content.strip().startswith("<!DOCTYPE html>")
         assert "</html>" in content
         # All sections should still be present
-        for section_id in ["executive-summary", "data-table", "pattern-analysis", "verification", "architecture", "transparency"]:
+        for section_id in ["executive-summary", "data-table", "patterns", "verification", "agent", "transparency"]:
             assert f'id="{section_id}"' in content
 
     def test_empty_intervention_log_handled(self, tmp_path: Path) -> None:

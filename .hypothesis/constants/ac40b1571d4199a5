@@ -1,0 +1,4 @@
+# file: /Users/gathakur2601/PROJJJJ/src/composio_research/researcher.py
+# hypothesis_version: 6.165.10
+
+[5.0, 10.0, 120, 200, 500, '401', '403', 'Unknown', 'Unknown error', 'access', 'access_model', 'access_restriction', 'agent_error', 'api_coverage', 'api_surface', 'api_type', 'auth_methods', 'buildability_verdict', 'connection', 'content', 'description', 'docs_url', 'gemini-2.5-flash', 'has_mcp_support', 'json', 'network', 'network_error', 'none', 'parse', 'parsing_failure', 'primary_blocker', 'researcher', 'timeout', 'url']

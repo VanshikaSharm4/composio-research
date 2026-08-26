@@ -1,0 +1,2702 @@
+[
+  {
+    "app_name": "Salesforce",
+    "category": "CRM & Sales",
+    "description": "Salesforce - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "LLM analysis failed: Gemini API error for Salesforce: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gpt-4o is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}",
+    "failure_category": "agent_error"
+  },
+  {
+    "app_name": "HubSpot CRM",
+    "category": "CRM & Sales",
+    "description": "HubSpot CRM - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for HubSpot CRM",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Pipedrive",
+    "category": "CRM & Sales",
+    "description": "Pipedrive - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Pipedrive",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Zoho CRM",
+    "category": "CRM & Sales",
+    "description": "Zoho CRM - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Zoho CRM",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Freshsales",
+    "category": "CRM & Sales",
+    "description": "Freshsales - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Freshsales",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Close",
+    "category": "CRM & Sales",
+    "description": "Close - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "LLM analysis failed: Gemini API error for Close: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gpt-4o is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}",
+    "failure_category": "agent_error"
+  },
+  {
+    "app_name": "Copper",
+    "category": "CRM & Sales",
+    "description": "Copper - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Copper",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Monday Sales CRM",
+    "category": "CRM & Sales",
+    "description": "Monday Sales CRM - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Monday Sales CRM",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Insightly",
+    "category": "CRM & Sales",
+    "description": "Insightly - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "LLM analysis failed: Gemini API error for Insightly: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gpt-4o is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}",
+    "failure_category": "agent_error"
+  },
+  {
+    "app_name": "Nutshell",
+    "category": "CRM & Sales",
+    "description": "Nutshell - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Nutshell",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Zendesk",
+    "category": "Support & Helpdesk",
+    "description": "Zendesk - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "LLM analysis failed: Gemini API error for Zendesk: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gpt-4o is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}",
+    "failure_category": "agent_error"
+  },
+  {
+    "app_name": "Freshdesk",
+    "category": "Support & Helpdesk",
+    "description": "Freshdesk - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Freshdesk",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Intercom",
+    "category": "Support & Helpdesk",
+    "description": "Intercom - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Intercom",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Help Scout",
+    "category": "Support & Helpdesk",
+    "description": "Help Scout - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Help Scout",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Jira Service Management",
+    "category": "Support & Helpdesk",
+    "description": "Jira Service Management - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "LLM analysis failed: Gemini API error for Jira Service Management: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gpt-4o is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}",
+    "failure_category": "agent_error"
+  },
+  {
+    "app_name": "ServiceNow",
+    "category": "Support & Helpdesk",
+    "description": "ServiceNow - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for ServiceNow",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Kayako",
+    "category": "Support & Helpdesk",
+    "description": "Kayako - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Kayako",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Zoho Desk",
+    "category": "Support & Helpdesk",
+    "description": "Zoho Desk - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Zoho Desk",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Front",
+    "category": "Support & Helpdesk",
+    "description": "Front - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Front",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "LiveAgent",
+    "category": "Support & Helpdesk",
+    "description": "LiveAgent - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "LLM analysis failed: Gemini API error for LiveAgent: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gpt-4o is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}",
+    "failure_category": "agent_error"
+  },
+  {
+    "app_name": "Slack",
+    "category": "Communications & Messaging",
+    "description": "Slack - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Slack",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Microsoft Teams",
+    "category": "Communications & Messaging",
+    "description": "Microsoft Teams - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "LLM analysis failed: Gemini API error for Microsoft Teams: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gpt-4o is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}",
+    "failure_category": "agent_error"
+  },
+  {
+    "app_name": "Discord",
+    "category": "Communications & Messaging",
+    "description": "Discord - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Discord",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Twilio",
+    "category": "Communications & Messaging",
+    "description": "Twilio - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Twilio",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Zoom",
+    "category": "Communications & Messaging",
+    "description": "Zoom - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "LLM analysis failed: Gemini API error for Zoom: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gpt-4o is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}",
+    "failure_category": "agent_error"
+  },
+  {
+    "app_name": "Telegram",
+    "category": "Communications & Messaging",
+    "description": "Telegram - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Telegram",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "WhatsApp Business",
+    "category": "Communications & Messaging",
+    "description": "WhatsApp Business - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for WhatsApp Business",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "SendGrid",
+    "category": "Communications & Messaging",
+    "description": "SendGrid - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for SendGrid",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Vonage",
+    "category": "Communications & Messaging",
+    "description": "Vonage - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Vonage",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "RingCentral",
+    "category": "Communications & Messaging",
+    "description": "RingCentral - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "LLM analysis failed: Gemini API error for RingCentral: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gpt-4o is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}",
+    "failure_category": "agent_error"
+  },
+  {
+    "app_name": "Mailchimp",
+    "category": "Marketing/Ads/Email/Social",
+    "description": "Mailchimp - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "LLM analysis failed: Gemini API error for Mailchimp: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gpt-4o is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}",
+    "failure_category": "agent_error"
+  },
+  {
+    "app_name": "HubSpot Marketing",
+    "category": "Marketing/Ads/Email/Social",
+    "description": "HubSpot Marketing - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for HubSpot Marketing",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Google Ads",
+    "category": "Marketing/Ads/Email/Social",
+    "description": "Google Ads - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "LLM analysis failed: Gemini API error for Google Ads: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gpt-4o is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}",
+    "failure_category": "agent_error"
+  },
+  {
+    "app_name": "Facebook Ads",
+    "category": "Marketing/Ads/Email/Social",
+    "description": "Facebook Ads - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Facebook Ads",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Hootsuite",
+    "category": "Marketing/Ads/Email/Social",
+    "description": "Hootsuite - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Hootsuite",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Buffer",
+    "category": "Marketing/Ads/Email/Social",
+    "description": "Buffer - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Buffer",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "ActiveCampaign",
+    "category": "Marketing/Ads/Email/Social",
+    "description": "ActiveCampaign - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for ActiveCampaign",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Constant Contact",
+    "category": "Marketing/Ads/Email/Social",
+    "description": "Constant Contact - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Constant Contact",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Brevo",
+    "category": "Marketing/Ads/Email/Social",
+    "description": "Brevo - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Brevo",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Klaviyo",
+    "category": "Marketing/Ads/Email/Social",
+    "description": "Klaviyo - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Klaviyo",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Shopify",
+    "category": "Ecommerce",
+    "description": "Shopify - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Shopify",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "WooCommerce",
+    "category": "Ecommerce",
+    "description": "WooCommerce - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for WooCommerce",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "BigCommerce",
+    "category": "Ecommerce",
+    "description": "BigCommerce - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "LLM analysis failed: Gemini API error for BigCommerce: 401 UNAUTHENTICATED. {'error': {'code': 401, 'message': 'Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.', 'status': 'UNAUTHENTICATED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'ACCESS_TOKEN_TYPE_UNSUPPORTED', 'metadata': {'method': 'google.ai.generativelanguage.v1beta.GenerativeService.GenerateContent', 'service': 'generativelanguage.googleapis.com'}}]}}",
+    "failure_category": "agent_error"
+  },
+  {
+    "app_name": "Magento",
+    "category": "Ecommerce",
+    "description": "Magento - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Magento",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Stripe",
+    "category": "Ecommerce",
+    "description": "Stripe - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Stripe",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Square",
+    "category": "Ecommerce",
+    "description": "Square - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Square",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "PayPal",
+    "category": "Ecommerce",
+    "description": "PayPal - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "LLM analysis failed: Gemini API error for PayPal: 401 UNAUTHENTICATED. {'error': {'code': 401, 'message': 'Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.', 'status': 'UNAUTHENTICATED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'ACCESS_TOKEN_TYPE_UNSUPPORTED', 'metadata': {'method': 'google.ai.generativelanguage.v1beta.GenerativeService.GenerateContent', 'service': 'generativelanguage.googleapis.com'}}]}}",
+    "failure_category": "agent_error"
+  },
+  {
+    "app_name": "Amazon Seller",
+    "category": "Ecommerce",
+    "description": "Amazon Seller - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Amazon Seller",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Etsy",
+    "category": "Ecommerce",
+    "description": "Etsy - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Etsy",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Wix eCommerce",
+    "category": "Ecommerce",
+    "description": "Wix eCommerce - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Wix eCommerce",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Ahrefs",
+    "category": "Data/SEO/Scraping",
+    "description": "Ahrefs - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "LLM analysis failed: Gemini API error for Ahrefs: 401 UNAUTHENTICATED. {'error': {'code': 401, 'message': 'Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.', 'status': 'UNAUTHENTICATED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'ACCESS_TOKEN_TYPE_UNSUPPORTED', 'metadata': {'method': 'google.ai.generativelanguage.v1beta.GenerativeService.GenerateContent', 'service': 'generativelanguage.googleapis.com'}}]}}",
+    "failure_category": "agent_error"
+  },
+  {
+    "app_name": "SEMrush",
+    "category": "Data/SEO/Scraping",
+    "description": "SEMrush - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "LLM analysis failed: Gemini API error for SEMrush: 401 UNAUTHENTICATED. {'error': {'code': 401, 'message': 'Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.', 'status': 'UNAUTHENTICATED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'ACCESS_TOKEN_TYPE_UNSUPPORTED', 'metadata': {'method': 'google.ai.generativelanguage.v1beta.GenerativeService.GenerateContent', 'service': 'generativelanguage.googleapis.com'}}]}}",
+    "failure_category": "agent_error"
+  },
+  {
+    "app_name": "Moz",
+    "category": "Data/SEO/Scraping",
+    "description": "Moz - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Moz",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "ScrapingBee",
+    "category": "Data/SEO/Scraping",
+    "description": "ScrapingBee - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for ScrapingBee",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Apify",
+    "category": "Data/SEO/Scraping",
+    "description": "Apify - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Apify",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Clearbit",
+    "category": "Data/SEO/Scraping",
+    "description": "Clearbit - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Clearbit",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "ZoomInfo",
+    "category": "Data/SEO/Scraping",
+    "description": "ZoomInfo - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for ZoomInfo",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "SimilarWeb",
+    "category": "Data/SEO/Scraping",
+    "description": "SimilarWeb - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for SimilarWeb",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Google Analytics",
+    "category": "Data/SEO/Scraping",
+    "description": "Google Analytics - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Google Analytics",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Mixpanel",
+    "category": "Data/SEO/Scraping",
+    "description": "Mixpanel - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Mixpanel",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "GitHub",
+    "category": "Developer/Infra/Data",
+    "description": "GitHub - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for GitHub",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "GitLab",
+    "category": "Developer/Infra/Data",
+    "description": "GitLab - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for GitLab",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "AWS",
+    "category": "Developer/Infra/Data",
+    "description": "AWS - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for AWS",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Vercel",
+    "category": "Developer/Infra/Data",
+    "description": "Vercel - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Vercel",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Docker Hub",
+    "category": "Developer/Infra/Data",
+    "description": "Docker Hub - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Docker Hub",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Datadog",
+    "category": "Developer/Infra/Data",
+    "description": "Datadog - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Datadog",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "PagerDuty",
+    "category": "Developer/Infra/Data",
+    "description": "PagerDuty - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "LLM analysis failed: Gemini API error for PagerDuty: 401 UNAUTHENTICATED. {'error': {'code': 401, 'message': 'Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.', 'status': 'UNAUTHENTICATED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'ACCESS_TOKEN_TYPE_UNSUPPORTED', 'metadata': {'method': 'google.ai.generativelanguage.v1beta.GenerativeService.GenerateContent', 'service': 'generativelanguage.googleapis.com'}}]}}",
+    "failure_category": "agent_error"
+  },
+  {
+    "app_name": "Sentry",
+    "category": "Developer/Infra/Data",
+    "description": "Sentry - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Sentry",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Terraform Cloud",
+    "category": "Developer/Infra/Data",
+    "description": "Terraform Cloud - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Terraform Cloud",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "CircleCI",
+    "category": "Developer/Infra/Data",
+    "description": "CircleCI - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for CircleCI",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Notion",
+    "category": "Productivity & PM",
+    "description": "Notion - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Notion",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Asana",
+    "category": "Productivity & PM",
+    "description": "Asana - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Asana",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Trello",
+    "category": "Productivity & PM",
+    "description": "Trello - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "LLM analysis failed: Gemini API error for Trello: 401 UNAUTHENTICATED. {'error': {'code': 401, 'message': 'Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.', 'status': 'UNAUTHENTICATED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'ACCESS_TOKEN_TYPE_UNSUPPORTED', 'metadata': {'service': 'generativelanguage.googleapis.com', 'method': 'google.ai.generativelanguage.v1beta.GenerativeService.GenerateContent'}}]}}",
+    "failure_category": "agent_error"
+  },
+  {
+    "app_name": "Monday.com",
+    "category": "Productivity & PM",
+    "description": "Monday.com - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Monday.com",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "ClickUp",
+    "category": "Productivity & PM",
+    "description": "ClickUp - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for ClickUp",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Jira",
+    "category": "Productivity & PM",
+    "description": "Jira - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Jira",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Linear",
+    "category": "Productivity & PM",
+    "description": "Linear - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Linear",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Todoist",
+    "category": "Productivity & PM",
+    "description": "Todoist - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "LLM analysis failed: Gemini API error for Todoist: 401 UNAUTHENTICATED. {'error': {'code': 401, 'message': 'Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.', 'status': 'UNAUTHENTICATED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'ACCESS_TOKEN_TYPE_UNSUPPORTED', 'metadata': {'method': 'google.ai.generativelanguage.v1beta.GenerativeService.GenerateContent', 'service': 'generativelanguage.googleapis.com'}}]}}",
+    "failure_category": "agent_error"
+  },
+  {
+    "app_name": "Airtable",
+    "category": "Productivity & PM",
+    "description": "Airtable - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "LLM analysis failed: Gemini API error for Airtable: 401 UNAUTHENTICATED. {'error': {'code': 401, 'message': 'Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.', 'status': 'UNAUTHENTICATED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'ACCESS_TOKEN_TYPE_UNSUPPORTED', 'metadata': {'method': 'google.ai.generativelanguage.v1beta.GenerativeService.GenerateContent', 'service': 'generativelanguage.googleapis.com'}}]}}",
+    "failure_category": "agent_error"
+  },
+  {
+    "app_name": "Basecamp",
+    "category": "Productivity & PM",
+    "description": "Basecamp - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Basecamp",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Stripe Billing",
+    "category": "Finance & Fintech",
+    "description": "Stripe Billing - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Stripe Billing",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "QuickBooks",
+    "category": "Finance & Fintech",
+    "description": "QuickBooks - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for QuickBooks",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Xero",
+    "category": "Finance & Fintech",
+    "description": "Xero - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "LLM analysis failed: Gemini API error for Xero: 401 UNAUTHENTICATED. {'error': {'code': 401, 'message': 'Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.', 'status': 'UNAUTHENTICATED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'ACCESS_TOKEN_TYPE_UNSUPPORTED', 'metadata': {'method': 'google.ai.generativelanguage.v1beta.GenerativeService.GenerateContent', 'service': 'generativelanguage.googleapis.com'}}]}}",
+    "failure_category": "agent_error"
+  },
+  {
+    "app_name": "Plaid",
+    "category": "Finance & Fintech",
+    "description": "Plaid - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "LLM analysis failed: Gemini API error for Plaid: 401 UNAUTHENTICATED. {'error': {'code': 401, 'message': 'Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.', 'status': 'UNAUTHENTICATED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'ACCESS_TOKEN_TYPE_UNSUPPORTED', 'metadata': {'method': 'google.ai.generativelanguage.v1beta.GenerativeService.GenerateContent', 'service': 'generativelanguage.googleapis.com'}}]}}",
+    "failure_category": "agent_error"
+  },
+  {
+    "app_name": "Wise",
+    "category": "Finance & Fintech",
+    "description": "Wise - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Wise",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Brex",
+    "category": "Finance & Fintech",
+    "description": "Brex - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Brex",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Wave",
+    "category": "Finance & Fintech",
+    "description": "Wave - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Wave",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "FreshBooks",
+    "category": "Finance & Fintech",
+    "description": "FreshBooks - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for FreshBooks",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Gusto",
+    "category": "Finance & Fintech",
+    "description": "Gusto - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Gusto",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Mercury",
+    "category": "Finance & Fintech",
+    "description": "Mercury - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Mercury",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "OpenAI",
+    "category": "AI/Research/Media",
+    "description": "OpenAI - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for OpenAI",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Anthropic",
+    "category": "AI/Research/Media",
+    "description": "Anthropic - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Anthropic",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Cohere",
+    "category": "AI/Research/Media",
+    "description": "Cohere - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "",
+    "failure_category": "timeout"
+  },
+  {
+    "app_name": "Stability AI",
+    "category": "AI/Research/Media",
+    "description": "Stability AI - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Stability AI",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "ElevenLabs",
+    "category": "AI/Research/Media",
+    "description": "ElevenLabs - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for ElevenLabs",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Midjourney",
+    "category": "AI/Research/Media",
+    "description": "Midjourney - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Midjourney",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Perplexity",
+    "category": "AI/Research/Media",
+    "description": "Perplexity - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for Perplexity",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "AssemblyAI",
+    "category": "AI/Research/Media",
+    "description": "AssemblyAI - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "Could not find documentation for AssemblyAI",
+    "failure_category": "network_error"
+  },
+  {
+    "app_name": "Deepgram",
+    "category": "AI/Research/Media",
+    "description": "Deepgram - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "",
+    "failure_category": "timeout"
+  },
+  {
+    "app_name": "Replicate",
+    "category": "AI/Research/Media",
+    "description": "Replicate - research failed",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "gated",
+    "api_surface": {
+      "has_public_api": false,
+      "api_type": null,
+      "coverage": null,
+      "has_mcp_support": false,
+      "evidence_url": null
+    },
+    "buildability_verdict": "blocked",
+    "primary_blocker": "missing_documentation",
+    "evidence_urls": {},
+    "research_status": "failed",
+    "missing_fields": [
+      "auth_methods",
+      "access_model",
+      "api_surface"
+    ],
+    "failure_reason": "LLM analysis failed: Gemini API error for Replicate: 401 UNAUTHENTICATED. {'error': {'code': 401, 'message': 'Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.', 'status': 'UNAUTHENTICATED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'ACCESS_TOKEN_TYPE_UNSUPPORTED', 'metadata': {'method': 'google.ai.generativelanguage.v1beta.GenerativeService.GenerateContent', 'service': 'generativelanguage.googleapis.com'}}]}}",
+    "failure_category": "agent_error"
+  }
+]

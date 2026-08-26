@@ -1,0 +1,243 @@
+{
+  "auth_distribution": {
+    "per_category": {
+      "CRM & Sales": {
+        "other": 10
+      },
+      "Support & Helpdesk": {
+        "other": 10
+      },
+      "Communications & Messaging": {
+        "other": 10
+      },
+      "Marketing/Ads/Email/Social": {
+        "other": 10
+      },
+      "Ecommerce": {
+        "other": 10
+      },
+      "Data/SEO/Scraping": {
+        "other": 10
+      },
+      "Developer/Infra/Data": {
+        "other": 10
+      },
+      "Productivity & PM": {
+        "other": 10
+      },
+      "Finance & Fintech": {
+        "other": 10
+      },
+      "AI/Research/Media": {
+        "other": 10
+      }
+    },
+    "overall": {
+      "other": 100
+    },
+    "dominant_per_category": {
+      "CRM & Sales": "other",
+      "Support & Helpdesk": "other",
+      "Communications & Messaging": "other",
+      "Marketing/Ads/Email/Social": "other",
+      "Ecommerce": "other",
+      "Data/SEO/Scraping": "other",
+      "Developer/Infra/Data": "other",
+      "Productivity & PM": "other",
+      "Finance & Fintech": "other",
+      "AI/Research/Media": "other"
+    }
+  },
+  "access_distribution": {
+    "per_category": {
+      "CRM & Sales": {
+        "self_serve": 0,
+        "gated": 10
+      },
+      "Support & Helpdesk": {
+        "self_serve": 0,
+        "gated": 10
+      },
+      "Communications & Messaging": {
+        "self_serve": 0,
+        "gated": 10
+      },
+      "Marketing/Ads/Email/Social": {
+        "self_serve": 0,
+        "gated": 10
+      },
+      "Ecommerce": {
+        "self_serve": 0,
+        "gated": 10
+      },
+      "Data/SEO/Scraping": {
+        "self_serve": 0,
+        "gated": 10
+      },
+      "Developer/Infra/Data": {
+        "self_serve": 0,
+        "gated": 10
+      },
+      "Productivity & PM": {
+        "self_serve": 0,
+        "gated": 10
+      },
+      "Finance & Fintech": {
+        "self_serve": 0,
+        "gated": 10
+      },
+      "AI/Research/Media": {
+        "self_serve": 0,
+        "gated": 10
+      }
+    },
+    "category_classification": {
+      "CRM & Sales": "majority_gated",
+      "Support & Helpdesk": "majority_gated",
+      "Communications & Messaging": "majority_gated",
+      "Marketing/Ads/Email/Social": "majority_gated",
+      "Ecommerce": "majority_gated",
+      "Data/SEO/Scraping": "majority_gated",
+      "Developer/Infra/Data": "majority_gated",
+      "Productivity & PM": "majority_gated",
+      "Finance & Fintech": "majority_gated",
+      "AI/Research/Media": "majority_gated"
+    }
+  },
+  "blocker_rankings": [
+    {
+      "blocker": "missing_documentation",
+      "count": 100,
+      "rank": 1
+    }
+  ],
+  "easy_win_apps": [],
+  "outreach_required_apps": [
+    "Salesforce",
+    "HubSpot CRM",
+    "Pipedrive",
+    "Zoho CRM",
+    "Freshsales",
+    "Close",
+    "Copper",
+    "Monday Sales CRM",
+    "Insightly",
+    "Nutshell",
+    "Zendesk",
+    "Freshdesk",
+    "Intercom",
+    "Help Scout",
+    "Jira Service Management",
+    "ServiceNow",
+    "Kayako",
+    "Zoho Desk",
+    "Front",
+    "LiveAgent",
+    "Slack",
+    "Microsoft Teams",
+    "Discord",
+    "Twilio",
+    "Zoom",
+    "Telegram",
+    "WhatsApp Business",
+    "SendGrid",
+    "Vonage",
+    "RingCentral",
+    "Mailchimp",
+    "HubSpot Marketing",
+    "Google Ads",
+    "Facebook Ads",
+    "Hootsuite",
+    "Buffer",
+    "ActiveCampaign",
+    "Constant Contact",
+    "Brevo",
+    "Klaviyo",
+    "Shopify",
+    "WooCommerce",
+    "BigCommerce",
+    "Magento",
+    "Stripe",
+    "Square",
+    "PayPal",
+    "Amazon Seller",
+    "Etsy",
+    "Wix eCommerce",
+    "Ahrefs",
+    "SEMrush",
+    "Moz",
+    "ScrapingBee",
+    "Apify",
+    "Clearbit",
+    "ZoomInfo",
+    "SimilarWeb",
+    "Google Analytics",
+    "Mixpanel",
+    "GitHub",
+    "GitLab",
+    "AWS",
+    "Vercel",
+    "Docker Hub",
+    "Datadog",
+    "PagerDuty",
+    "Sentry",
+    "Terraform Cloud",
+    "CircleCI",
+    "Notion",
+    "Asana",
+    "Trello",
+    "Monday.com",
+    "ClickUp",
+    "Jira",
+    "Linear",
+    "Todoist",
+    "Airtable",
+    "Basecamp",
+    "Stripe Billing",
+    "QuickBooks",
+    "Xero",
+    "Plaid",
+    "Wise",
+    "Brex",
+    "Wave",
+    "FreshBooks",
+    "Gusto",
+    "Mercury",
+    "OpenAI",
+    "Anthropic",
+    "Cohere",
+    "Stability AI",
+    "ElevenLabs",
+    "Midjourney",
+    "Perplexity",
+    "AssemblyAI",
+    "Deepgram",
+    "Replicate"
+  ],
+  "observations": [
+    {
+      "title": "Other dominance in authentication",
+      "description": "other is the most common authentication method across all analyzed apps, appearing in 100 of 100 total auth method assignments.",
+      "supporting_data": "100/100 auth assignments (100.0%) use other",
+      "opportunity": "Prioritize other connector support in the Composio SDK to maximize compatibility with the largest segment of apps."
+    },
+    {
+      "title": "Self-serve easy-win opportunity",
+      "description": "0 apps are classified as easy-wins, requiring no outreach or special partnerships to integrate. These span 0 categories.",
+      "supporting_data": "0/100 apps (0.0%) are ready for immediate integration across 0 categories",
+      "opportunity": "Focus initial integration efforts on easy-win apps to rapidly expand the Composio toolkit catalog with minimal business development overhead."
+    },
+    {
+      "title": "Top blocker: missing documentation",
+      "description": "The most common barrier to buildability is 'missing documentation', affecting 100 apps out of 100 non-ready apps.",
+      "supporting_data": "100/100 non-ready apps (100.0%) blocked by missing documentation",
+      "opportunity": "Develop targeted solutions or partnerships to address 'missing documentation' barriers, potentially unblocking 100 apps for toolkit integration."
+    },
+    {
+      "title": "Access model landscape",
+      "description": "0 apps offer self-serve API access while 100 require gated access (paid plans, partnerships, or approvals). 10 categories are majority-gated.",
+      "supporting_data": "0/100 apps (0.0%) are self-serve; 10 categories are majority-gated",
+      "opportunity": "For gated-majority categories, establish partnership programs or explore community-contributed integrations to expand coverage without direct API access requirements."
+    }
+  ]
+}
