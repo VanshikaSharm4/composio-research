@@ -195,11 +195,15 @@ async def run_pipeline(args: argparse.Namespace) -> int:
         )
 
     # Create agent instances with appropriate configs
+    gemini_api_key = os.environ.get("GEMINI_API_KEY")
+
     research_config = ResearchConfig(
         max_retries=config.max_retries,
         timeout_seconds=config.request_timeout_seconds,
         concurrency_limit=config.concurrency_limit,
         composio_api_key=config.composio_api_key,
+        gemini_api_key=gemini_api_key,
+        gemini_model=config.llm_model,
     )
     researcher = ResearcherAgent(composio_client, research_config)
 
